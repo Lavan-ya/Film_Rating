@@ -1,12 +1,29 @@
-# React + Vite
+# Film Rating
+Film Rating is a full-stack web application built using **React**, **Express**, and **MongoDB**. It allows users to rate and review films, helping others discover great movies and avoid letdowns. The application is containerized using **Docker** for seamless deployment.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Film Rating System**: Users can add films and provide ratings.
+- **Responsive Design**: Built with Bootstrap for a mobile-friendly experience.
+- **Backend API**: Powered by Express.js for handling requests.
+- **Database**: MongoDB for storing film data and user reviews.
+- **Dockerized**: Backend run in Docker containers for easy deployment.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+### Frontend:
+- **React**: For building the user interface.
+- **React Router**: For navigation and routing.
+- **Bootstrap**: For responsive design.
+
+### Backend:
+- **Express.js**: For handling API requests.
+- **MongoDB**: For storing data.
+
+### Deployment:
+- **Docker**: For containerizing the application.
+
