@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  mongo:
+    image: mongo
+    container_name: Cinescore_mongoDB
+    ports:
+      - "27017:27017"
+    volumes:
+      - Cinescore_mongoDB:/data/db
+volumes:
+  Cinescore_mongoDB: {}
+

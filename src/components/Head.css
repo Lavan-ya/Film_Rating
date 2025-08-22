@@ -1,0 +1,13 @@
+.bg-custom{
+    background-color:rgb(217, 187, 245);
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight:bold;
+}
+
+.text{
+    justify-content:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight:bold;
+}
